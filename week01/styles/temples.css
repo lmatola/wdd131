@@ -10,7 +10,7 @@ body {
 
 /* mobile **************************/
 header {
-	background-color: #bbb;
+	background-color: rgb(112, 25, 64);
 	display: grid;
 	grid-gap: 1rem;
 	padding: 20px;
@@ -36,7 +36,8 @@ h2 {
 nav {
 	background-color: #36454f;
 	display: flex;
-	flex-direction: column
+	flex-direction: column;
+	border-radius: 10px;
 }
 
 nav a {
@@ -49,6 +50,7 @@ nav a {
 
 nav a:hover {
 	text-decoration: underline double;
+	
 }
 
 .active {
