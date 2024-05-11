@@ -1,4 +1,4 @@
-@media(min-width:940px) {
+@media(min-width:640px) {
     
     #data-title{
         text-align: left;
@@ -74,6 +74,4 @@
     table{
         font-size: 16px;
     }
-
-
 }
