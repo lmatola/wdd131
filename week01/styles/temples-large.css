@@ -26,6 +26,15 @@ body {
 	nav a {
 		flex: 1 1 100%;
 	}
+
+	#menu {
+		display: none;
+
+	}
+
+	.open a{
+		display: block;
+	}
 }
 
 
@@ -60,6 +69,7 @@ footer {
     padding: 10px;
     text-align: center;
     font-size: smaller;
+	
 }
 
 footer p {

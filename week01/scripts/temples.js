@@ -1,9 +1,7 @@
-const currentYear = new Date().getFullYear();
-document.getElementById('currentYear').textContent = currentYear;
+const buttonMenu = document.querySelector("#menu");
+const navbar = document.querySelector(".navigation");
 
-function getLastModifiedDate() {
-    const lastModified = new Date(document.lastModified);
-    document.getElementById('lastModified').textContent += lastModified;
-}
-
-document.addEventListener('DOMContentLoaded', getLastModifiedDate);
+buttonMenu.addEventListener("click", () => {
+  navbar.classList.toggle("open");
+  buttonMenu.classList.toggle("open");
+});

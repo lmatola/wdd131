@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 | Lazaro Felizardo Matola | Mozambique</title>
+    <meta name="description" content="My Country">
+    <meta name="author" content="Lazaro Felizardo Matola">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+ 
+    <link rel="stylesheet" href="week01/styles/place.css">
+    <link rel="stylesheet" href="week01/styles/place-large.css">
+
+    <script src="week01/scripts/place.js" defer></script>
+    <script src="week01/scripts/getdates.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+       <h1>Mozambique</h1> 
+    </header>
+
+    <main>
+
+       <div class="hero">
+            
+            <picture>
+                <source srcset="week01/images/image1.webp" media="(min-width:1020px)">
+                
+                <img src="week01/images/image2.webp" alt="" width="500" height="250">
+            </picture>
+
+            <section id="data-section">
+
+                <h2 id="data-title">Data</h2>
+
+                <table>
+                    <tr>
+                        <th>Area:</th>
+                        <td>309,475 sq mi</td>
+                    </tr>
+                    <tr>
+                        <th>Population:</th>
+                        <td>32,234,243</td>
+                    </tr>
+                    <tr>
+                        <th>Capital:</th>
+                        <td>Maputo</td>
+                    </tr>
+                    <tr>
+                        <th>Language:</th>
+                        <td>Portuguese</td>
+                    </tr>
+                    <tr>
+                        <th>Currency:</th>
+                        <td>Metical</td>
+                    </tr>
+                    <tr>
+                        <th>Time Zone:</th>
+                        <td>GMT+2</td>
+                    </tr>
+                    <tr>
+                        <th>Calling Code:</th>
+                        <td>+258</td>
+                    </tr>
+                    <tr>
+                        <th>Internet TLD:</th>
+                        <td>.mz</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="weather-section">
+
+                <h2 id="weather-title">Weather</h2>
+
+                <img id="weather-icon" src="week01/images/1530391_weather_clouds_sun_sunny_icon.svg" alt="Weather Icon">
+                
+                <table>
+                    <tr>
+                        <th>Temperature:</th>
+                        <td><span id="temperature">27</span> <span id="temperature-unit">℃</span></td>
+                    </tr>
+                    <tr>
+                        <th>Condition:</th>
+                        <td>Partly Cloudy</td>
+                    </tr>
+                    <tr>
+                        <th>Wind:</th>
+                        <td><span id="wind">29</span> <span id="wind-unit">km/h</span></td>
+                    </tr>
+                    <tr>
+                        <th>Wind Chill:</th>
+                        <td id="wind-chill"></td>
+                    </tr>
+                
+                </table>
+            </section>
+
+       </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Lazaro Felizardo Matola | Mozambique</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>   
+
+</body>
+
+</html>

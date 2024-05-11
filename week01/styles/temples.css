@@ -10,7 +10,7 @@ body {
 
 /* mobile **************************/
 header {
-	background-color: rgb(112, 25, 64);
+	background-color: blueviolet;
 	display: grid;
 	grid-gap: 1rem;
 	padding: 20px;
@@ -38,6 +38,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	border-radius: 10px;
+	
 }
 
 nav a {
@@ -53,9 +54,42 @@ nav a:hover {
 	
 }
 
+
 .active {
 	color: yellow;
 }
+
+
+
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: var(--second-color);	
+	
+}
+
+#menu::before {
+	content: "☰";
+	cursor: pointer;
+	
+}
+
+#menu.open::before {
+	content: "X";
+	cursor: pointer;
+	
+}
+
+
+
+
+
+
+
+
+
 
 
 
