@@ -1,5 +1,6 @@
-document.addEventListener('DOMContentLoaded',function(){
+const year = document.querySelector("#currentyear");
+const today = new Date();
+year.innerHTML = `${today.getFullYear()}`;
 
-    document.getElementById('currentyear').textContent=new Date().getFullYear();  
-    document.getElementById("lastModified").textContent=document.lastModified;
-})
+const modified = document.querySelector("#lastModified");
+modified.innerHTML = `Last Modification: ${document.lastModified}`
