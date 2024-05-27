@@ -1,0 +1,101 @@
+
+body{
+    width: 40%;
+    margin: auto;
+    padding: 0;
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+header, footer{
+    background-color: blueviolet;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 8px  0 8px  0;
+
+}
+
+main {
+    padding: 20px;
+    background-color: rgb(172, 147, 194);
+}
+
+main p{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.headerLabel{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+form {
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form select,
+form input[type="date"],
+
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+form .ratContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+form .ratOptions {
+    display: flex;
+    margin-top: 5px;
+}
+
+form .ratOptions label {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form .ratOptions label span {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+#writtenReview {
+    height: 200px;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgb(114, 72, 154);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+form input[type="submit"]:hover {
+    background-color: blueviolet;
+}
+

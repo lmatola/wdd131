@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Product Review Form - Lázaro Felizardo Matola</title>
+    <meta name="author" content="Lázaro Felizardo Matola">
+    <meta name="description" content="Product Review Form">
+
+    
+    <link rel="stylesheet" href="week01/styles/form.css">
+    <script src="week01/scripts/form.js" defer></script>
+    <script src="week01/scripts/getdates.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html">
+
+            <label class="headerLabel" for="productName">Product Name</label>
+
+            <select id="productName" name="subject" required>
+                <option value="" disabled selected>Choose a Product...</option>
+            </select>
+            
+            <div class="ratContainer">
+                
+                <label class="headerLabel" >Overall Rating</label>
+
+                <div class="ratOptions">
+
+                    <label for="rat1">
+                        <span>☆</span>
+                        <input type="radio" id="Rat1" name="starRat" value="one" required>
+                    </label>
+
+                    <label for="rat2">
+                        <span>☆☆</span>
+                        <input type="radio" id="Rat2" name="starRat" value="two">
+                    </label>
+
+                    <label for="rat3">
+                        <span>☆☆☆</span>
+                        <input type="radio" id="Rat3" name="starRat" value="three">
+                    </label>
+
+                    <label for="rat4">
+                        <span>☆☆☆☆</span>
+                        <input type="radio" id="Rat4" name="starRat" value="four">
+                    </label>
+
+                    <label for="rat5">
+                        <span>☆☆☆☆☆</span>
+                        <input type="radio" id="Rat5" name="starRat" value="five">
+                    </label>
+
+                </div>
+
+            </div>
+            
+            <label for="installDate" class="headerLabel" >Date of Installation</label>
+            <input type="date" id="installDate" name="installDate" required>
+            
+            <label class="headerLabel" >Which features did you find useful in the Product? <span class="optional">(Optional)</span><br><span class="optional">(Check all that apply)</span></label>
+            <label for="durability"><input type="checkbox" id="durability" name="features" value="durability">Durability</label>
+            <label for="easeOfUse"><input type="checkbox" id="easeOfUse" name="features" value="easeOfUse">Ease Of Use</label>
+            <label for="performance"><input type="checkbox" id="performance" name="features" value="performance">Performance</label>
+            <label for="design"><input type="checkbox" id="design" name="features" value="design">Design</label>
+            
+            <label class="headerLabel" for="writtenReview">Written Review <span class="optional">(Optional)</span></label>
+           
+            <textarea name="writtenReview" id="writtenReview"></textarea>
+            
+            <label class="headerLabel" for="userName">Your Name <span class="optional">(Optional)</span></label>
+
+            <input type="text" id="userName" name="userName">            
+            <input id="submit" type="submit" value="Post Review">
+
+        </form>
+        
+    </main>
+
+    <footer>
+        <p id="info">&copy;<span id="currentyear"></span> ♦ Lazaro Felizardo Matola ♦ Mozambique</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+</html>
