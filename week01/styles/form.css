@@ -99,6 +99,13 @@ form input[type="submit"]:hover {
     background-color: blueviolet;
 }
 
+.optional{
+    font-style: italic;
+    font-size: 15px;
+    color: #8811be;
+    font-weight: bold;
+}
+
 /* use reverse flexbox to take advantage of flex-direction: reverse */
 .star-rating {
     display: flex;
