@@ -138,17 +138,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #999;
+  background-color: #54659b;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #999;
+  background-color: #54659b;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #999;
+  background-color: #54659b;
   line-height: 3em;
 }
 
@@ -173,12 +173,13 @@ nav a:hover {
 #info{
     font-size: 22px;
     padding-bottom: 10px;
-    color: #000;
+    color: var(--paragraph-color-on-color);
 }
 
 #lastModified{
     font-size: 15px;
-    color: #000;
+    color: var(--paragraph-color-on-color);
+
 }
 
 
@@ -186,9 +187,11 @@ footer{
     background-color: #15547d;
     margin-top: 30px;
     padding: 20px;
+  
 }
 
 footer p{
     text-align: center;
     margin: 0px;
+
 }
