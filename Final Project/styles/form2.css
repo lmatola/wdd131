@@ -1,28 +1,13 @@
 
-body{
-    width: 100%;
-    margin: auto;
-    padding: 0;
-    font-family: "Alegreya Sans", sans-serif;
-}
 
-header, footer{
-    background-color: blueviolet;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin: 8px  0 8px  0;
-
-}
-
-main {
+.contact {
     padding: 20px;
     background-color: rgb(172, 147, 194);
 }
 
-main p{
+contact p{
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
 }
 
 
@@ -32,7 +17,7 @@ main p{
 }
 
 form {
-    max-width: 650px;
+    max-width: 450px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -82,13 +67,13 @@ form .rating-options label span {
 
 
 #writtenReview {
-    height: 200px;
+    height: 100px;
 }
 
 form input[type="submit"] {
     margin-top: 20px;
     padding: 10px;
-    background-color: rgb(114, 72, 154);
+    background-color: rgb(231, 6, 6);
     color: #fff;
     border: none;
     cursor: pointer;
@@ -96,13 +81,13 @@ form input[type="submit"] {
 }
 
 form input[type="submit"]:hover {
-    background-color: blueviolet;
+    background-color:#e40000;
 }
 
 .optional{
     font-style: italic;
     font-size: 15px;
-    color: #8811be;
+    color: #e40000;
     font-weight: bold;
 }
 
@@ -127,7 +112,7 @@ form input[type="submit"]:hover {
     font-family: Arial;
     font-size: 30px;
     transition: 0.2s ease;
-    color: blueviolet;
+    color: #e40000;
   }
   /* give label a hover state */
   .star-rating label:hover {
